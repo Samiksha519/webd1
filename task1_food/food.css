@@ -1,0 +1,277 @@
+body{
+    margin: 10px; 
+}
+
+#navBar{
+    top: 0%;
+    z-index: 1;;
+    height: 6vw;             
+    width: 100vw;
+    background-color: white;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#navMenu{
+    display: inline-flex;
+    align-items: center ;
+    position: absolute;
+    left: 70%;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+#navMenu .button{
+    border : solid 0px black ;
+    position:relative ;
+    /* margin-top :10% ; */
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 0.3em 0.3em 0;
+
+}
+.button:hover {
+    color: #ffffff;
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+}
+
+
+
+#logo-img{
+    object-fit: fill;
+    margin-left: -5px;
+    margin-right:-50px;
+    box-sizing: border-box;
+    width:100vw;
+}
+
+#home{
+   
+    text-align: center;
+    font-size: 30px;
+    background-color: #FEF1E6;
+    padding-top: 50px;
+    padding-left:10px ;
+    padding-right:30px ;
+    padding-bottom:50px;
+    width:100%;
+}
+
+.homebutton{
+    padding: 0.35em 1.2em;
+    font-size: 1.8rem;
+    border: 0.1em solid #000000;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none; 
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: transparent;
+}
+
+.homebutton:hover {
+    color: #ffffff;
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: transform 200ms ease-in-out;
+}
+#blog{
+    background-color: #FFB085;
+    width:100%;
+}
+#blog{
+    padding-top: 50px;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+
+
+
+
+#image2{
+    width: 500px;
+    height: 300px;
+    border:#000000;
+    border-radius: 3%;
+    
+}
+
+
+
+
+
+#bio{
+    font-size:20px;
+
+}
+
+section{
+    height:100px;
+    width:100px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #FEF1E6;
+    justify-content:space-around;
+
+}
+
+#collaborate{
+    width:100%;
+    background-color: #FEF1E6;
+    padding-top: 50px;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-bottom: 20px;
+
+}
+
+#featured{
+    text-align: center;
+}
+
+
+#collab>div {
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    flex-direction:row;
+    height:50vh;
+    width:25%;
+    background-color:transparent;
+    margin: 2%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    display:inline-block;
+    align-items: center;
+    flex-shrink:0;
+}
+
+
+
+#contact-section{
+    
+    left: 0%;
+    top: 320vh;
+}
+
+#container{
+    height: 87vh ;
+    width: 105%;
+    background-color:#90AACB;
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+
+
+
+#sponsor{
+    width:95%;
+    height:70%;
+    background-image: url(resources/Unknown-2.jpeg);
+    background-position: center;
+    margin-left: 3%;
+    border-top: 1px black;
+    background-size: cover;
+}
+
+#review{
+    background-image: url(resources/Unknown-5.jpeg);
+    background-position: center;
+    border-top: 1px black;
+    width:95%;
+    height:70%;
+    margin-left: 3%;
+    background-size: cover;
+}
+
+#photo{
+    background-image: url(resources/Unknown-1.jpeg);
+    background-position: center;
+    border-top: 1px black;
+    width:95%;
+    height:70%;
+    margin-left: 3%;
+    background-size: cover;
+}
+
+#container > h1{
+    color: white;
+    margin: 10% 0 2% 33%;
+    font-family:'Montserrat' ;
+}
+
+form div{
+    display: block;
+    margin-top: 1%;
+}
+
+form div input{
+    padding-left: 3%;
+    padding-bottom: 10px;
+    padding-top: 1%;
+    margin-top: 1%;
+    border: none;
+}
+
+form label{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 1.5rem ;
+}
+form input{
+    position: relative;
+    top: 40%;
+    left: 30%;
+    border-radius: 100px;
+    border: none;
+    padding: 0.5% 0.8% 0.5% 0.8%;
+    outline: none;
+}
+ 
+#name{
+    margin-left: 12%;
+}
+#number{
+    margin-left: 8%;
+}
+#email{
+    margin-left: 6.5%;
+}
+
+
+
+input[type="submit"]{
+    margin-top: 2%;
+    margin-left: 10%;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color:black;
+}
+
+#container a{
+    text-decoration: none;
+    position: relative;
+    left: 20%;
+    top: 10%;
+}
+
+
+.social-icon{
+    margin-left: 5% ;
+}
